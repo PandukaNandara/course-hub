@@ -1,0 +1,23 @@
+.my-d {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.m-d {
+  margin: 10px !important;
+}
+
+.m-r {
+  margin-right: 10px !important;
+}
+
+.card {
+  margin: 10px !important;
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+}
+
+.app-bar {
+  display: inherit;
+}

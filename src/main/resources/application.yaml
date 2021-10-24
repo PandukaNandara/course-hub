@@ -1,0 +1,24 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: coure-hub
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    password: 1998
+    url: jdbc:mysql://localhost:3306/course_hub?createDatabaseIfNotExist=true
+    username: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL57Dialect
+        jdbc:
+          time_zone: UTC
+    show-sql: true
+app:
+  token-expiration: 2592000000
+  token-secret: GCDKX4YBAP0YIKX0DZD08TQTPKWIGKAR
