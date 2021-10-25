@@ -58,6 +58,6 @@ react build file into Spring boot JAR file.
 Username and password for admin is as follows.
 - username: admin
 - password: admin
-
+ Please use the Mysql DUMP file to restore the Admin credentials if you are use this for the first time.
 
 
